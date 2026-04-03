@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Grace And More Ministry – Proclaiming God's saving grace from the Adventist perspective. Website under construction.">
+        <title>Grace And More Ministry | Coming Soon</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap');
+            
+            :root {
+                --tw-color-primary: #1e3a8a;
+            }
+            
+            .tail-container * {
+                font-family: 'Inter', system_ui, sans-serif;
+            }
+            
+            .heading-font {
+                font-family: 'Playfair Display', sans-serif;
+            }
+
+            .hero-bg {
+                background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+            }
+            
+            .construction-dot {
+                animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+            }
+            
+            .cross-icon {
+                animation: float 3s ease-in-out infinite;
+            }
+        </style>
+    </head>
+
+    <body class="tail-container">
+        <!-- Navbar -->
+        <nav class="bg-white border-b border-slate-200 shadow-sm sticky top-0 z-50">
+            <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center gap-x-3">
+                    <div class="w-10 h-10 bg-indigo-600 rounded-2xl flex items-center justify-center text-3xl cross-icon">✝️</div>
+                    <div>
+                        <h1 class="text-2xl font-semibold text-slate-900 tracking-tighter heading-font">Grace &amp; More</h1>
+                        <p class="text-xs text-slate-500 -mt-1 font-medium">MINISTRY</p>
+                    </div>
+                </div>
+                
+                <!-- Tag -->
+                <div class="hidden md:flex items-center gap-x-2 text-sm font-medium bg-slate-100 text-slate-700 px-4 h-9 rounded-3xl">
+                    <div class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
+                    MINISTRY
+                </div>
+
+                <!-- Right side -->
+                <div class="flex items-center gap-x-4">
+                    <a href="https://x.com/MalusiSkunyana" target="_blank" 
+                    class="text-slate-500 hover:text-slate-700 transition-colors flex items-center gap-x-1 text-sm font-medium">
+                        <span>Follow Elder Malusi</span>
+                        <span class="text-lg">𝕏</span>
+                    </a>
+                    <div class="h-6 w-px bg-slate-300"></div>
+                    <a href="#contact" 
+                    onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })"
+                    class="px-5 py-2 text-sm font-semibold bg-indigo-600 text-white rounded-3xl hover:bg-indigo-700 transition-colors">
+                        Get in touch
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <header class="hero-bg text-white min-h-[calc(100vh-73px)] flex items-center">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <!-- Under construction badge -->
+                <div class="inline-flex items-center gap-x-2 bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-semibold px-6 py-3 rounded-3xl mb-8">
+                    <span class="relative flex h-3 w-3">
+                        <span class="construction-dot absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-400"></span>
+                    </span>
+                    WEBSITE UNDER CONSTRUCTION
+                </div>
+
+                <!-- Main heading -->
+                <h1 class="text-6xl md:text-7xl font-bold tracking-tighter heading-font leading-none mb-6">
+                    Grace And More Ministry
+                </h1>
+                
+                <p class="text-2xl md:text-3xl text-white/90 mb-4 max-w-2xl mx-auto">
+                    Proclaiming the good news of God's saving grace
+                </p>
+                
+                <p class="text-xl text-white/70 mb-12 max-w-xl mx-auto">
+                    Founded by Elder Malusi Skunyana • Giving hope to the hopeless
+                </p>
+
+                <!-- Central message card -->
+                <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 md:p-12 max-w-2xl mx-auto mb-16">
+                    <div class="flex justify-center mb-8">
+                        <div class="px-8 py-4 bg-white text-indigo-700 rounded-3xl font-semibold text-xl flex items-center gap-x-4 shadow-inner">
+                            <span class="text-3xl">🙏</span>
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                    
+                    <p class="text-white/90 text-xl leading-relaxed mb-8">
+                        We are prayerfully preparing a beautiful new digital home where you will find sermons, Bible studies, 
+                        resources, and powerful messages of hope from a Adventist perspective.
+                    </p>
+                    
+                    <p class="text-amber-200 text-lg font-medium">
+                        The Lord is not slow in keeping his promise... He is patient with you.
+                    </p>
+                    <p class="text-white/60 text-sm mt-1">— 2 Peter 3:9</p>
+                </div>
+
+                <!-- Bible verse highlight -->
+                <div class="max-w-md mx-auto bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-8 text-left">
+                    <p class="italic text-2xl leading-tight text-white/95 mb-6">
+                        “For by grace you have been saved through faith, and that not of yourselves; it is the gift of God.”
+                    </p>
+                    <p class="text-right text-white/70 font-medium">— Ephesians 2:8</p>
+                </div>
+
+                <!-- Hope message -->
+                <div class="mt-16 text-white/80 text-lg max-w-md mx-auto">
+                    “We are committed to giving hope to the hopeless through the everlasting gospel of Jesus Christ.”
+                </div>
+                
+                <div class="text-white/60 text-sm mt-8 flex items-center justify-center gap-x-8">
+                    <div class="flex items-center gap-x-1">
+                        <span class="text-2xl">✝️</span>
+                        <span>Elder Malusi Skunyana</span>
+                    </div>
+                    <div>Cape Town, South Africa</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Simple contact / stay connected section -->
+        <section id="contact" class="py-16 bg-white">
+            <div class="max-w-6xl mx-auto px-6 text-center">
+                <h2 class="text-3xl font-semibold text-slate-800 mb-4">Stay Connected</h2>
+                <p class="text-slate-600 max-w-md mx-auto mb-10">
+                    While we finish building the full website, feel free to reach out directly to Elder Malusi. 
+                    The ministry continues — grace is still flowing!
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://x.com/MalusiSkunyana" target="_blank"
+                    class="flex-1 sm:flex-none sm:w-72 bg-slate-900 hover:bg-black text-white font-medium py-5 rounded-3xl flex items-center justify-center gap-x-3 transition-colors">
+                        <span class="text-3xl">𝕏</span>
+                        <span>Follow on X @MalusiSkunyana</span>
+                    </a>
+                    
+                    <a href="mailto:malusiskunyana@gmail.com" 
+                    class="flex-1 sm:flex-none sm:w-72 bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-5 rounded-3xl flex items-center justify-center gap-x-3 transition-colors">
+                        ✉️ Email Elder Malusi
+                    </a>
+                </div>
+                
+                <p class="text-slate-500 text-sm mt-12">
+                    Grace And More Ministry © 2026 • All rights reserved<br>
+                    A ministry proclaiming God's saving grace from the Adventist perspective
+                </p>
+            </div>
+        </section>
+
+        <script>
+            // Tailwind script already loaded via CDN
+            function initializeTailwind() {
+                return {
+                    config(userConfig = {}) {
+                        return {
+                            content: [],
+                            theme: {
+                                extend: {},
+                            },
+                            plugins: [],
+                            ...userConfig,
+                        }
+                    },
+                    theme() {
+                        return {
+                            extend: {},
+                        }
+                    }
+                }
+            }
+            
+            // Run Tailwind
+            document.addEventListener('DOMContentLoaded', () => {
+                return initializeTailwind().config()
+            })
+            
+            // Simple console message for the builder
+            console.log('%c🚧 Grace And More Ministry temporary landing page loaded. Ready for Netlify deployment!', 'color:#1e3a8a; font-weight:600')
+        </script>
+    </body>
+
+</html>
