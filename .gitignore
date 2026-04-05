@@ -1,0 +1,36 @@
+# Dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/out
+
+# Production
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Netlify
+.netlify
+
+# Misc
+coverage/
